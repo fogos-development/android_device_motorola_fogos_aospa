@@ -272,10 +272,6 @@ PRODUCT_COPY_FILES += $(DEVICE_PATH)/init/fstab.default:$(TARGET_COPY_OUT_VENDOR
 # Partitions - Super
 PRODUCT_BUILD_SUPER_PARTITION := false
 
-# Perf
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
-
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS += \
     adreno \
