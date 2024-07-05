@@ -968,10 +968,9 @@ vendor/bin/port-bridge|011291f40f5deb492166af4db51938935eb780f4
 vendor/bin/qrtr-cfg|74481aca310c7ad72832c15e76ca1bd7e38f1aa8
 vendor/bin/qrtr-lookup|6241d9e7323252f3dd98ccf6209b00236627050a
 vendor/bin/qrtr-ns|16645489979c9cf3ff4051690d6a7d7d01e5cf39
-vendor/bin/qti|faa6e1e0a05de8de00001e4619d0dc155c11c637
 vendor/bin/qtigetprop|4d0e9e9adb56cdbe4562c2fa54416aa5eb2968e8
 vendor/bin/qtisetprop|232b6b778234ecf9806f4b9d9a4de9c28b70c108
-vendor/bin/rmt_storage|fc28705c5bde61b81bf653e42dd6e202420e2aae
+vendor/bin/qti|faa6e1e0a05de8de00001e4619d0dc155c11c637
 vendor/bin/shsusrd|d4f1d0fd3093405b7e826dc6f8d39a03f821104a
 vendor/bin/tftp_server|71dbed66f91e3566b5bd28deb83a15e3d3c6b3eb
 vendor/etc/data/dsi_config.xml|85f76668d6b6f87402c534f284c286676edefa93
@@ -986,7 +985,6 @@ vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
 vendor/etc/init/qcrilNrd.rc|07102a903fa5d175b6d894a12743d18fe772f0bc
 vendor/etc/init/shsusrd.rc|4278875bb51f27aa5409f5fdf428c954ea0c14b3
-vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 vendor/etc/qcril_database/upgrade/config/10.0_config.sql|57648c9bff6cc9dea5b52743ecae4a422e60e456
 vendor/etc/qcril_database/upgrade/config/11.0_config.sql|49550e60cd2a4da0d758e4e4aeac922b4044169a
@@ -1137,6 +1135,10 @@ vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libspl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
+
+# RemoteFS
+vendor/bin/rmt_storage
+vendor/etc/init/vendor.qti.rmt_storage.rc
 
 # SecureMSM (EID)
 vendor/bin/hw/vendor.qti.hardware.eid@1.0-service
